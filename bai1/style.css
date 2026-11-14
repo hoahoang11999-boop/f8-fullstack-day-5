@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(155, 123, 123, 0.493);
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container {
+    background-color: white;
+    max-width: 800px;
+    min-height: 800px;
+    margin: auto;
+    padding: 30px 60px;
+    border-radius: 5px;
+}
+.header {
+    text-align: center;
+    padding-top: 4px;
+}
+.pd {
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 0;
+}
+.td {
+    margin-bottom: 1px;
+}
+.pd1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.jotitle0, .jotitle1, .jotitle2, .jotitle4 {
+    display: flex;
+    justify-content: space-between;
+}
+.jotitle5 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+ul {
+    padding-left: 15px;
+}
