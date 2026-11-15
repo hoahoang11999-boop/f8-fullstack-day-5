@@ -1,0 +1,65 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+body {
+    background-color: rgb(100, 188, 188);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+}
+.container {
+    background-color: #3e5bc7;
+    max-width: 900px;
+    min-height: 78px;
+    margin: auto;  
+}
+.even {
+    display: flex;
+    padding: 0 60px;
+}
+.even li a {
+    display: block;
+     padding: 30px 20px;
+    white-space: nowrap;
+    color: aliceblue;
+}
+.even li ul {
+    visibility: hidden;
+}
+.even li:hover ul  {
+     visibility: visible;
+
+}
+.even li {
+    position: relative;
+}
+.even li ul {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+}
+.dropdown1, .dropdown2 {
+    background-color: white;
+}
+.even li:hover {
+    background-color: white;
+}
+
+.dropdown1 li {
+    border-bottom: 1px solid black;
+}
+.dropdown2 li {
+    border-bottom: 1px solid black;
+}
+.even a:hover {
+    color: black;
+}
+.dropdown1 li a {
+    color: black;
+}
+.dropdown2 li a {
+    color: black;
+}
+
